@@ -60,7 +60,7 @@ python -m unittest
 - запуск тестов первого упражнения
 
 ```
-python -m unittest test_ex1.TestRolesTree
+python -m unittest tests.test_ex1.TestRolesTree
 ```
 
 ### Термины
@@ -144,7 +144,7 @@ python -m unittest test_ex1.TestRolesTree
 - запуск тестов второго упражнения
 
 ```
-python -m unittest test_ex2.TestFetchPage
+python -m unittest tests.test_ex2.TestFetchPage
 ```
 
 ---
@@ -157,7 +157,7 @@ python -m unittest test_ex2.TestFetchPage
 Запуск тестов третьего упражнения
 
 ```
-python -m unittest test_ex3.TestGame
+python -m unittest tests.test_ex3.TestGame
 ```
 
 ---
@@ -197,6 +197,6 @@ FROM Employee,
 - запуск тестов четвёртого упражнения
 
 ```
-python -m unittest test_ex4.TestCrossJoin
+python -m unittest tests.test_ex4.TestCrossJoin
 ```
 
